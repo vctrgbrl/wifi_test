@@ -70,7 +70,7 @@ class _MyAppState extends State<MyApp> {
           child: Column(
             children: [
               TextButton(
-                child: Text("Check Wifi State"),
+                child: Text("Connect Eduroam"),
                 onPressed: getWifiState,
               ),
               Text(_wsMessage)
